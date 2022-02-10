@@ -1,0 +1,12 @@
+body {
+    font-family: Arial;
+}
+
+.container {
+    display: flex;
+}
+
+.child {
+    display: inline-block;
+    vertical-align: middle;
+}

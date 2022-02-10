@@ -3,6 +3,7 @@
 
 <head>
     <meta charset=utf-8/>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 
@@ -10,12 +11,25 @@
 
     <h1>ic-07 - Intro to JavaScript</h1>
 
-    <button type="button">Button 1</button>
+    <button type="button" onclick="button1Clicked()">Button 1</button>
 
     <div id="random_num">
         When Button 1 is clicked, a random number should appear here. 
     </div>
 
+    <div class="contianer">
+        <div class="child">
+            <button class="second_button" type="button" onclick="button2Clicked()">Button 2</button>
+        </div> 
+
+        <div class="child">
+            <svg>
+                <circle id="circle_color"" cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="blue" />
+            </svg>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
 </body>
 
 </html>
